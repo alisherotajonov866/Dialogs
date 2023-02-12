@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSimpleAlert"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnAlertWithMultiChoice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog with \nMulti Choice"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnAlertWithSingleChoice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Alert Dialog with \nSingle Choice"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnCustomDialog"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Custom Dialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnFragmentDialog"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Fragment Dialog"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Date Picker"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnTimePicker"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Time Picker"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnBottomSheet"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Bottom Sheet"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnSnackBar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Snack Bar"
+        android:textAllCaps="false" />
+
+</LinearLayout>
